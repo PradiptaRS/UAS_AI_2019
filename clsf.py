@@ -1,11 +1,7 @@
 from sklearn import tree
 import pandas as pd
 
-#filepath = "C:/Users/user/Downloads/lung_cancer_examples.csv"
-#sep = ","
-#delimiter = None
-
-df = pd.read_csv("C:/Users/user/Downloads/lung_cancer_examples.csv")
+df = pd.read_csv("lung_cancer_examples.csv")
 
 a = df[["Age","Smokes","AreaQ","Alkhol"]]
 b = df["Result"]
